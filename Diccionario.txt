@@ -1,0 +1,10 @@
+cabezeras ={
+    CortesSan Pedro Sula,
+    OlanchoJuticalpa,
+    AtlantidaLa Ceiba,
+    IntibucaLa Esperanza,
+    YoroYoro
+}
+
+ingresedep=input(Escriba el nombre de pais )
+print(La cabezera de {} es {} .format(ingresedep,cabezeras[ingresedep]))
